@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: viswad/angular-app-kubernetes:#{Build.BuildId}#
+        image: viswad/devops1:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
